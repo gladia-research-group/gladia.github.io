@@ -27,11 +27,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/model_merging/";
           
         },
-      },{id: "post-something-something-attention-sinks",
+      },{id: "post-attention-sinks-from-the-graph-perspective",
         
-          title: "Something Something Attention Sinks",
+          title: "Attention sinks from the graph perspective",
         
-        description: "TO DO",
+        description: "Why causal transformers naturally concentrate attention on their earliest tokens.",
         section: "Posts",
         handler: () => {
           
