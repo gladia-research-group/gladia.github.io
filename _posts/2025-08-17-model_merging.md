@@ -20,7 +20,7 @@ tikzjax: true
 typograms: true
 
 authors:
-  - name: GLADIA
+  - name: Donato Crisostomi
     url: "https://crisostomi.github.io"
     affiliations:
       name: ELLIS PhD @ Sapienza & Cambridge
