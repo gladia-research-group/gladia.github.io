@@ -27,6 +27,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/model_merging/";
           
         },
+      },{id: "post-something-something-attention-sinks",
+        
+          title: "Something Something Attention Sinks",
+        
+        description: "TO DO",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/attention_sinks/";
+          
+        },
       },{
         id: 'social-email',
         title: 'email',
