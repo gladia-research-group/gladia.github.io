@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://crisostomi.github.io/blog/sitemap.xml

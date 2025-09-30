@@ -1,0 +1,237 @@
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] We are going to deprecate hostInfo access soon. Please use HostInfoController instead.
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Host should provide base paths for persistent and temporary storage for 1P plugins in uxp initialization!
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] We are going to deprecate hostInfo access soon. Please use HostInfoController instead.
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] We are going to deprecate hostInfo access soon. Please use HostInfoController instead.
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.illustrator.propertiespanel : [v4] Using Default Value for Icon species
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Plugin com.adobe.illustrator.propertiespanel : Expected the icon to have a 1X scaled file
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.illustrator.propertiespanel : [v4] Using Default Value for Icon species
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Plugin com.adobe.illustrator.propertiespanel : Expected the icon to have a 1X scaled file
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.comments-webview : [v4] Using Default Value for Icon species
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Plugin com.adobe.ccx.comments-webview : Expected the icon to have a 1X scaled file
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.comments-webview : [v4] Using Default Value for Icon species
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Plugin com.adobe.ccx.comments-webview : Expected the icon to have a 1X scaled file
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.timeline : [v4] Using Default Value for Icon species
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.timeline : Scaled Icon :  icons/S_PL_DocHistory_N@1x.png  not found
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.timeline : Scaled Icon :  icons/S_PL_DocHistory_N@2x.png  not found
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Plugin com.adobe.ccx.timeline : Expected the icon to have a 1X scaled file
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.timeline : [v4] Using Default Value for Icon species
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.timeline : Scaled Icon :  icons/S_PL_DocHistory_D@1x.png  not found
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.timeline : Scaled Icon :  icons/S_PL_DocHistory_D@2x.png  not found
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Plugin com.adobe.ccx.timeline : Expected the icon to have a 1X scaled file
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.timeline : [v4] Using Default Value for Icon species
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Plugin com.adobe.ccx.timeline : Expected the icon to have a 1X scaled file
+[2025-08-20_08-46-24][0x20ba4e0c0][Info] [general] Plugin com.adobe.ccx.timeline : [v4] Using Default Value for Icon species
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Plugin com.adobe.ccx.timeline : Expected the icon to have a 1X scaled file
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Please call HostInfoController::instance()->initialize() when the app is initializing.
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Please call HostInfoController::instance()->initialize() when the app is initializing.
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-24][0x20ba4e0c0][Warn] [general] Please call HostInfoController::instance()->initialize() when the app is initializing.
+[2025-08-20_08-46-24][0x33579f000][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-24][0x335687000][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-24][0x33703b000][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-25][0x33579f000][Default] [console] i am called
+[2025-08-20_08-46-25][0x33579f000][Default] [console] Artboard Move Copytrue
+[2025-08-20_08-46-25][0x33579f000][Default] [console] Artboard Move testfalse
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (b) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (y) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (_) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (a) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (h) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (_) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (h) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (h) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (v) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (g) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (E) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (a) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (A) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (J) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (m) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (N) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (u) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (h) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (n) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (a) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (y) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (k) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (T) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (h) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (k) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (h) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Default] [console] [DP] Templates are not initialized yet!
+[2025-08-20_08-46-25][0x33703b000][Default] [console] [DP] Bucket::createContentModuleStoresForSectionOrder we already have a store for undefined
+[2025-08-20_08-46-25][0x33703b000][Default] [console] [DP] Bucket::createContentModuleStoresForSectionOrder we already have a store for undefined
+[2025-08-20_08-46-25][0x33703b000][Default] [console] [DP] Bucket::createContentModuleStoresForSectionOrder we already have a store for undefined
+[2025-08-20_08-46-25][0x33703b000][Default] [console] [DP] ====> onHistoryAdded() [object Object]
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (y) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (A) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (r) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (x) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (p) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (n) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (w) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (_) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (P) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (R) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (R) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (T) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (b) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (b) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (y) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (y) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (x) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (b) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Warn] [console] The provided component class (n) 
+                has already been declared as an observer component.
+[2025-08-20_08-46-25][0x33703b000][Default] [console] 271 PERF - Platform init start
+[2025-08-20_08-46-26][0x33703b000][Default] [console] 1663 PERF - Platform init done: 1392
+[2025-08-20_08-46-26][0x33703b000][Error] [console] [DP] Error fetching IMS Access token: No Valid user exist
+[2025-08-20_08-46-26][0x33703b000][Warn] [console] [DP] Error when launching application with specifier ccxprocess: Error: getInstalledApps is no longer supported. Use getInstalledAppsEx instead.
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/SourceSansPro-Regular.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/SourceSansPro-It.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/SourceSansPro-BoldIt.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/AdobeClean-SemiCn.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/AdobeClean-BoldSemiCnIt.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/AdobeClean-SemiCnIt.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/AdobeClean-LightIt.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/SourceSansPro-Bold.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/AdobeClean-BoldSemiCn.otf
+[2025-08-20_08-46-26][0x20ba4e0c0][Warn] [general] Loading font collection failed Could not read file File Path: /Applications/Adobe Illustrator 2023/Adobe Illustrator.app/Contents/Required/UxpResources/AdobeCleanUX/AdobeClean-Light.otf
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1732 PERF - Start Screen Init start
+[2025-08-20_08-46-26][0x335687000][Default] [console] CCX Start v5.12.1.4
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1732 PERF - Sophia Init start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1733 PERF - Ututs Init start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1733 PERF - IMS Init start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1733 PERF - IMS.updateUserProfile start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 1733 message: Fetching NGL Profile. Awaiting Response.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1733 PERF - Fetching NGL Profile. Awaiting Response.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1734 PERF - Locale Init start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1740 PERF - MainStore Init start
+[2025-08-20_08-46-26][0x335687000][Info] [console] [HS][MainStore] self.launchCount 19
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1742 PERF - Platform init start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1742 PERF - Shared Settings Init start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 1743 message: Fetching Recent Files. Awaiting Response.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1743 PERF - Fetching Recent Files. Awaiting Response.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 1744 message: Received NGL Profile.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1744 PERF - Received NGL Profile.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 12 message: IMS.updateUserProfile
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1745 PERF - IMS.updateUserProfile done: 12
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 5 message: MainStore Init
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1745 PERF - MainStore Init done: 5
+[2025-08-20_08-46-26][0x335687000][Warn] [console] [HS][Ututs] Empty response from CCX Process
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 4 message: Shared Settings Init
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1746 PERF - Shared Settings Init done: 4
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 14 message: Sophia Init
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1746 PERF - Sophia Init done: 14
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 13 message: Ututs Init
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1746 PERF - Ututs Init done: 13
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1746 PERF - IMS.updateAccessToken start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][IMS] FRL user. No access token present
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 0 message: IMS.updateAccessToken
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1746 PERF - IMS.updateAccessToken done: 0
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 13 message: IMS Init
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1746 PERF - IMS Init done: 13
+[2025-08-20_08-46-26][0x33703b000][Error] [console] [DP] Error fetching IMS Access token: No Valid user exist
+[2025-08-20_08-46-26][0x335687000][Warn] [console] [CDO] @ccx/ccx-cdo/Stylesheets.ts | @ccx/ccx-cdo/theme/Core.css |
+        @ccx/ccx-cdo/theme/CCXHomeScreen/Themes.css will soon be deprecated.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 1803 message: Received Recent Files.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1803 PERF - Received Recent Files.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 1804 message: UI Ready
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1804 PERF - UI Ready
+[2025-08-20_08-46-26][0x335687000][Default] [console] 1804 PERF - Launch CCXProcess start
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 62 message: Platform init
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1804 PERF - Platform init done: 62
+[2025-08-20_08-46-26][0x16f4b7000][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 75 message: Locale Init
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1809 PERF - Locale Init done: 75
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][LicenseChiclet] NGL: Showing no chiclet.
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 1818 message: Interactive Ready
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1818 PERF - Interactive Ready
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] log perf event: time: 87 message: Start Screen Init
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1819 PERF - Start Screen Init done: 87
+[2025-08-20_08-46-26][0x335687000][Default] [console] [DocumentStore-1] QuotaStore.fetch - Waiting for initialization to complete
+[2025-08-20_08-46-26][0x335687000][Default] [console] [initCDOStores-1] ACPLModel.waitForApplicationContextReady()
+[2025-08-20_08-46-26][0x335687000][Default] [console] [DocumentStore-1] constructACPLAsset /cloud-content - Waiting for initialization to complete
+[2025-08-20_08-46-26][0x335687000][Default] [console] [DocumentStore-1] constructACPLAsset /cloud-content-archive - Waiting for initialization to complete
+[2025-08-20_08-46-26][0x335687000][Default] [console] [DocumentStore-1] preFetchDocuments - Waiting for initialization to complete
+[2025-08-20_08-46-26][0x16f287000][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-26][0x335687000][Warn] [console] [HS][FallbackComponent] User is regressing
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Performance] 1846 PERF - Late Loads start
+[2025-08-20_08-46-26][0x335687000][Default] [console] 1877 PERF - Launch CCXProcess done: 73
+[2025-08-20_08-46-26][0x335687000][Warn] [console] Wed, 20 Aug 2025 06:46:26 GMT [CMDN] [IMS] FRL user. No access token present
+[2025-08-20_08-46-26][0x335687000][Error] [console] INGEST RENDER EVENT: WelcomeMessage{"workflow":"home","totalWebTutorials":0,"totalInAppTutorials":0} true
+[2025-08-20_08-46-26][0x335687000][Warn] [console] Analytics event missing Sophia data: 
+[2025-08-20_08-46-26][0x335687000][Warn] [console] Analytics event missing Sophia data: 
+[2025-08-20_08-46-26][0x335687000][Default] [console] [HS][Illustrator] AI: Home screen visibility set to  visible without back button.
+[2025-08-20_08-46-26][0x335687000][Warn] [console] [HS][Ututs] Empty response from CCX Process
+[2025-08-20_08-46-27][0x335687000][Default] [console] [HS][Analytics] analytics.ingest: (Prod) disabled
+[2025-08-20_08-46-27][0x335687000][Default] [console] [HS][Performance] log perf event: time: 78 message: Late Loads
+[2025-08-20_08-46-27][0x335687000][Default] [console] [HS][Performance] 1924 PERF - Late Loads done: 78
+[2025-08-20_08-46-27][0x335687000][Default] [console] [HS][Performance] log perf event: time: 1924 message: All done
+[2025-08-20_08-46-27][0x335687000][Default] [console] [HS][Performance] 1924 PERF - All done
+[2025-08-20_08-46-27][0x335687000][Error] [console] Wed, 20 Aug 2025 06:46:27 GMT [CMDN] [LibraryManager] CC Library Process is not installed
+[2025-08-20_08-46-28][0x33703b000][Error] [console] [DP] 
+[2025-08-20_08-46-28][0x33703b000][Error] [console] [DP] Failed to get data from CCX Process: Error: CCXProcess timed out
+[2025-08-20_08-46-28][0x335687000][Warn] [console] Analytics event missing Sophia data: 
+[2025-08-20_08-46-29][0x335687000][Error] [console] Wed, 20 Aug 2025 06:46:29 GMT [CMDN] [StockController] Request to get stock response from CCX Process timed out
+[2025-08-20_08-46-30][0x20ba4e0c0][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-30][0x20ba4e0c0][Warn] [general] Please call HostInfoController::instance()->initialize() when the app is initializing.
+[2025-08-20_08-46-30][0x20ba4e0c0][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-30][0x20ba4e0c0][Warn] [general] Please call HostInfoController::instance()->initialize() when the app is initializing.
+[2025-08-20_08-46-30][0x335687000][Info] [console] [HS][MainStore] Hiding Welcome Banner
+[2025-08-20_08-46-30][0x38c86f000][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-30][0x38c8fb000][Warn] [general] We are going to deprecate HostInfo API soon, please use HostApi instead.
+[2025-08-20_08-46-30][0x335687000][Warn] [console] [HS][Ututs] Empty response from CCX Process
+[2025-08-20_08-46-30][0x335687000][Default] [console] [HS][Illustrator] ILST: Recent list changed from MRUFileListChanged. No of items = 2
+[2025-08-20_08-46-35][0x335687000][Error] [console] Wed, 20 Aug 2025 06:46:35 GMT [CMDN] [StockController] Request to get stock collections response from CCX Process timed out
+[2025-08-20_08-46-36][0x335687000][Error] [console] [DocumentStore-1] Failed to create/get SAMAssetContext: Timed out
+[2025-08-20_08-46-56][0x33703b000][Error] [console] [DP] Error fetching IMS Access token: No Valid user exist
+[2025-08-20_08-47-26][0x33703b000][Error] [console] [DP] Error fetching IMS Access token: No Valid user exist
+[2025-08-20_08-47-56][0x33703b000][Error] [console] [DP] Error fetching IMS Access token: No Valid user exist
+[2025-08-20_08-48-26][0x33703b000][Error] [console] [DP] Error fetching IMS Access token: No Valid user exist
