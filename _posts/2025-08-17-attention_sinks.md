@@ -56,9 +56,9 @@ Most people are usually introduced to (multi-headed) self-attention directly via
 
 Let's start with regular, multi-headed attention.
 
-Say you have \(n\) tokens, with an embedding dimension \(d\).
+Say you have $n$ tokens, with an embedding dimension $d$.
 
-Let our input tokens be shaped as a matrix \(X \in \mathbb{R}^{n \times d}\). We first process \(X\) with three different linear projections, namely \(W_q\), \(W_k\) and \(W_v\), and end up with the respective \(Q \in \mathbb{R}^{n \times d_q}\), \(K \in \mathbb{R}^{n \times d_k}\) and \(V \in \mathbb{R}^{n \times d_v}\) matrices.
+Let our input tokens be shaped as a matrix $X \in \mathbb{R}^{n \times d}$. We first process $X$ with three different linear projections, namely $W_q$, $W_k$ and $W_v$, and end up with the respective $Q \in \mathbb{R}^{n \times d_q}$, $K \in \mathbb{R}^{n \times d_k}$ and $V \in \mathbb{R}^{n \times d_v}$ matrices.
 
 We then perform the well-known attention operation
 
@@ -66,20 +66,20 @@ $$
 \mathrm{attention}(X) = \mathrm{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}\right)V.
 $$
 
-Let's take a look at \(\alpha = QK^\top\).
+Let's take a look at $\alpha = QK^\top$.
 If we rewrite it component-wise we get
 
 $$
 \alpha_{ij} = \sum_{\ell=1}^{d_k} Q_{i\ell} K_{j\ell}.
 $$
 
-If we note that the rows of \(Q\) and \(K\) are respectively \(q_i\) and \(k_j\), we see that
+If we note that the rows of $Q$ and $K$ are respectively $q_i$ and $k_j$, we see that
 
 $$
 \alpha_{ij} = q_i k_j^\top = \langle q_i, k_j \rangle.
 $$
 
-The attention matrix \(\alpha\)'s entries are thus simply the Euclidean dot product between token embeddings, projected via the query and key matrices.
+The attention matrix $\alpha$'s entries are thus simply the Euclidean dot product between token embeddings, projected via the query and key matrices.
 
 This still falls within the classical presentation of attention, so nothing to see here as of yet.
 
@@ -90,7 +90,7 @@ $$
 X \in \mathbb{R}^{\,n\times d}.
 $$
 
-And let's treat the rows of \(X\) as a **point cloud**:
+And let's treat the rows of $X$ as a **point cloud**:
 
 $$
 X =
@@ -104,7 +104,7 @@ x_n^\top
 x_i \in \mathbb{R}^d.
 $$
 
-Constructing the \(Q\), \(K\), \(V\) matrices for attention, we effectively project that cloud in three ways
+Constructing the $Q$, $K$, $V$ matrices for attention, we effectively project that cloud in three ways
 
 $$
 Q = X W_q \in \mathbb{R}^{\,n\times d_q},
@@ -145,7 +145,7 @@ A_{ij}
 A = \mathrm{softmax}\!\Bigl(\tfrac{\alpha}{\sqrt{d_k}}\Bigr).
 $$
 
-Each row of \(A\) is a probability distribution and corresponds to the **node's neighbors**; small logits shrink toward 0, meaning most edge weights are very close to zero, apart from a few. This effectively heavily sparsifies the neighborhood, assigning most of the link weights to just a few connections, while the rest go to zero.
+Each row of $A$ is a probability distribution and corresponds to the **node's neighbors**; small logits shrink toward 0, meaning most edge weights are very close to zero, apart from a few. This effectively heavily sparsifies the neighborhood, assigning most of the link weights to just a few connections, while the rest go to zero.
 
 Lastly, the final operation
 
@@ -153,7 +153,7 @@ $$
 \mathrm{attention}(X) = AV
 $$
 
-can now be interpreted from an interesting perspective: \(V\) can be seen as a **vector-valued function defined on nodes of the graph**.
+can now be interpreted from an interesting perspective: $V$ can be seen as a **vector-valued function defined on nodes of the graph**.
 
 If we write it row-wise (hence focusing on each token, or node, at a time), we see that the updated function's value associated with the node becomes
 
@@ -161,29 +161,45 @@ $$
 \mathrm{attention}(X)_i = \sum_\ell A_{i\ell} V_\ell.
 $$
 
-But what does multiplying a function defined on a graph by the adjacency mean? Let's say we have a directed graph \(\mathcal{G} = (V,E)\) with adjacency \(A\), with a function \(f: v \rightarrow \mathbb{R}\) and \(v \in V\).
-Then, the multiplication \(y = Af\) can be written, component-wise, as
+But what does multiplying a function defined on a graph by the adjacency mean? Let's say we have a directed graph $\mathcal{G} = (V,E)$ with adjacency $A$, with a function $f: v \rightarrow \mathbb{R}$ and $v \in V$.
+Then, the multiplication $y = Af$ can be written, component-wise, as
 
 $$
 y_i = \sum_{j} A_{ij} f_j.
 $$
 
-Remember that, for an adjacency matrix, elements of column \(i\) represent incoming links from other nodes in the graph. This means that \(y_i\), or the result of the adjacency-multiplied function \(f\), is the weighted average of \(f\) over incoming nodes to node \(i\), where the weights are decided by the adjacency matrix entries. Intuitively, you can think of this process as a sort of *diffusion*: features are aggregates of their neighbours. This means that, if we start with a rather unequally spatially distributed function (say a very localized highly positive region, and the rest being zero), then nodes on the boundary of the highly positive region would "diffuse" the highly positive values towards neighbouring nodes. Of course the topology of the graph heavily influences the speed of this diffusion. Unsurprisingly, this ties back very well with the actual physical phenomenon of heat diffusion, as we will see in a future blogpost.
+Remember that, for an adjacency matrix, elements of column $i$ represent incoming links from other nodes in the graph. This means that $y_i$, or the result of the adjacency-multiplied function $f$, is the weighted average of $f$ over incoming nodes to node $i$, where the weights are decided by the adjacency matrix entries. Intuitively, you can think of this process as a sort of *diffusion*: features are aggregates of their neighbours. This means that, if we start with a rather unequally spatially distributed function (say a very localized highly positive region, and the rest being zero), then nodes on the boundary of the highly positive region would "diffuse" the highly positive values towards neighbouring nodes. Of course the topology of the graph heavily influences the speed of this diffusion. Unsurprisingly, this ties back very well with the actual physical phenomenon of heat diffusion, as we will see in a future blogpost.
 
 ## Causal Transformers and Attention Sinks
 
 Note that the discussion so far has been agnostic of masking strategies applied to the attention score. While several uses of transformer models employ attention bidirectionally, LLMs, our large model protagonists, are usually causally masking attention to leverage parallelism for their next-token prediction task.
 
-In our attention mechanism, this is done by substituting our \(\alpha\) adjacency matrix with a masked, causal one, in the shape of \(\alpha_m = \alpha \odot M\), with \(M_{ij} = 1\) if \(j \leq i\) and zero otherwise. Note that this gives our attention graph an even more interesting structure: our graph is now, by design, a **Directed Acyclic Graph** (DAG), meaning the graph contains no loops, and its adjacency matrix is nilpotent (meaning there exists \(k\) such that \((A^k)_{ij} = 0\), \(\forall i,j\)).
+In our attention mechanism, this is done by substituting our $\alpha$ adjacency matrix with a masked, causal one, in the shape of $\alpha_m = \alpha \odot M$, with $M_{ij} = 1$ if $j \leq i$ and zero otherwise. Note that this gives our attention graph an even more interesting structure: our graph is now, by design, a **Directed Acyclic Graph** (DAG), meaning the graph contains no loops, and its adjacency matrix is nilpotent (meaning there exists $k$ such that $(A^k)_{ij} = 0$, $\forall i,j$).
 
-One interesting corollary of this observation is that adjacency-based diffusion over DAGs is bound to accumulate information in sinks, specifically, in the first tokens of a causal model. This can be made explicit by looking at the shape of powers of \(A\):
+One interesting corollary of this observation is that adjacency-based diffusion over DAGs is bound to accumulate information in sinks, specifically, in the first tokens of a causal model. This can be made explicit by looking at the shape of powers of $A$:
 
-![Attention matrix power 1](assets/img/blog/attention_sinks/new_A^1.png)
-![Attention matrix power 2](assets/img/blog/attention_sinks/new_A^2.png)
-![Attention matrix power 4](assets/img/blog/attention_sinks/new_A^4.png)
-![Attention matrix power 8](assets/img/blog/attention_sinks/new_A^8.png)
+{% include figure.liquid
+   path="assets/img/blog/attention_sinks/new_A^1.png"
+   class="img-fluid rounded"
+   zoomable=true
+%}
+{% include figure.liquid
+   path="assets/img/blog/attention_sinks/new_A^2.png"
+   class="img-fluid rounded"
+   zoomable=true
+%}
+{% include figure.liquid
+   path="assets/img/blog/attention_sinks/new_A^4.png"
+   class="img-fluid rounded"
+   zoomable=true
+%}
+{% include figure.liquid
+   path="assets/img/blog/attention_sinks/new_A^8.png"
+   class="img-fluid rounded"
+   zoomable=true
+%}
 
-These plots (Fig. 1-4) show exactly what we expect on a DAG: as we take powers of the (masked) attention matrix \(A\) the mass moves "leftward" toward early tokens. In the strictly lower-triangular case (no self-loops) this is a nilpotent operator, so sufficiently high powers collapse entirely into the earliest positions.
+These plots (Fig. 1-4) show exactly what we expect on a DAG: as we take powers of the (masked) attention matrix $A$ the mass moves "leftward" toward early tokens. In the strictly lower-triangular case (no self-loops) this is a nilpotent operator, so sufficiently high powers collapse entirely into the earliest positions.
 
 To connect this with learning dynamics, linearize one residual attention block (one head, for intuition; treat the MLP as a node-wise map) as
 
@@ -193,7 +209,7 @@ X^{\ell+1} \approx X^{\ell} + A^{\ell} X^{\ell} B^{\ell},
 B^{\ell} = W_v^{\ell} W_o^{\ell}.
 $$
 
-Stacking \(L\) such blocks yields an end-to-end map that is a polynomial in the \(A^{\ell}\)'s:
+Stacking $L$ such blocks yields an end-to-end map that is a polynomial in the $A^{\ell}$'s:
 
 $$
 X^{L} \approx \Big(\prod_{\ell=1}^{L} (I + A^{\ell} B^{\ell})\Big) X^{0}
@@ -201,7 +217,7 @@ X^{L} \approx \Big(\prod_{\ell=1}^{L} (I + A^{\ell} B^{\ell})\Big) X^{0}
 + \sum_{\ell_2 > \ell_1} A^{\ell_2} B^{\ell_2} A^{\ell_1} B^{\ell_1} X^{0} + \cdots
 $$
 
-When the \(A^{\ell}\) are geometrically similar across depth, dominant terms behave like **powers of a causal \(A\)**. That is the same "multi-hop diffusion" we saw in the previous figures, progressively concentrating influence onto the first columns (early tokens).
+When the $A^{\ell}$ are geometrically similar across depth, dominant terms behave like **powers of a causal $A$**. That is the same "multi-hop diffusion" we saw in the previous figures, progressively concentrating influence onto the first columns (early tokens).
 
 But if that's the case during a forward pass, what makes a model exhibit this bias across training, as it's been noticed in the literature?
 
@@ -211,9 +227,9 @@ $$
 g^{\ell} \approx (I + {B^{\ell+1}}^{\!\top} {A^{\ell+1}}^{\!\top}) \cdots (I + {B^{L}}^{\!\top} {A^{L}}^{\!\top}) g^{L}.
 $$
 
-Hence token-wise gradients accumulate along **column sums of products of \(A\)** (or, equivalently, row sums of products of \(A^{\top}\)). In a causal DAG those column sums are largest for earlier positions, so both activations **and** gradients preferentially route through (and update) paths that point to early tokens.
+Hence token-wise gradients accumulate along **column sums of products of $A$** (or, equivalently, row sums of products of $A^{\top}$). In a causal DAG those column sums are largest for earlier positions, so both activations **and** gradients preferentially route through (and update) paths that point to early tokens.
 
-Practically, residual connections make the map a **polynomial** (not a single \(A^k\)), multi-head mixing and \(B^{\ell}\) projections reshape directions, and layer-norm rescales signals. But the structural bias remains: deeper layers inherit updates that look like compositions of attention-diffusion steps, which, under causal masking, tend to be more and more "first-column concentrated".
+Practically, residual connections make the map a **polynomial** (not a single $A^k$), multi-head mixing and $B^{\ell}$ projections reshape directions, and layer-norm rescales signals. But the structural bias remains: deeper layers inherit updates that look like compositions of attention-diffusion steps, which, under causal masking, tend to be more and more "first-column concentrated".
 
 Another corollary of our observation is that it would suggest that later layers are more subject to the attention sink phenomenon, while the very first layer should be much less impacted. This turns out to be true and well known when studying attention sinks, as is the case, for example, for [Llama 2](https://arxiv.org/abs/2309.17453), or in [this paper](https://openreview.net/pdf/736acc55a9b7a936dff081c2ba066c205279a844.pdf) and [this one](https://arxiv.org/pdf/2402.09221).
 
