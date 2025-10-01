@@ -178,10 +178,26 @@ In our attention mechanism, this is done by substituting our $\alpha$ adjacency 
 
 One interesting corollary of this observation is that adjacency-based diffusion over DAGs is bound to accumulate information in sinks, specifically, in the first tokens of a causal model. This can be made explicit by looking at the shape of powers of $A$:
 
-![Attention matrix power 1](assets/img/blog/attention_sinks/new_A^1.png)
-![Attention matrix power 2](assets/img/blog/attention_sinks/new_A^2.png)
-![Attention matrix power 4](assets/img/blog/attention_sinks/new_A^4.png)
-![Attention matrix power 8](assets/img/blog/attention_sinks/new_A^8.png)
+{% include figure.liquid
+   path="assets/img/blog/attention_sinks/new_A^1.png"
+   class="img-fluid rounded"
+   zoomable=true
+%}
+{% include figure.liquid
+   path="assets/img/blog/attention_sinks/new_A^2.png"
+   class="img-fluid rounded"
+   zoomable=true
+%}
+{% include figure.liquid
+   path="assets/img/blog/attention_sinks/new_A^4.png"
+   class="img-fluid rounded"
+   zoomable=true
+%}
+{% include figure.liquid
+   path="assets/img/blog/attention_sinks/new_A^8.png"
+   class="img-fluid rounded"
+   zoomable=true
+%}
 
 These plots (Fig. 1-4) show exactly what we expect on a DAG: as we take powers of the (masked) attention matrix $A$ the mass moves "leftward" toward early tokens. In the strictly lower-triangular case (no self-loops) this is a nilpotent operator, so sufficiently high powers collapse entirely into the earliest positions.
 
