@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/index.html";
           },
-        },{id: "post-model-merging-a-biased-overview",
+        },{id: "post-beyond-attention-as-a-graph",
+        
+          title: "Beyond Attention as a Graph",
+        
+        description: "Higher-order (n-simplicial) attention as topology-driven message passing beyond graphs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/beyond_attention_as_a_graph/";
+          
+        },
+      },{id: "post-model-merging-a-biased-overview",
         
           title: "Model Merging — a biased overview",
         
