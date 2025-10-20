@@ -2,7 +2,7 @@
 layout: distill
 title: "Attention sinks from the graph perspective"
 description: "Why causal transformers naturally concentrate attention on their earliest tokens."
-tags: [transformers, attention, graph neural networks]
+tags: [transformers, attention, graph neural networks, The Graph Side of Attention series]
 giscus_comments: true
 date: 2025-08-17
 featured: false
